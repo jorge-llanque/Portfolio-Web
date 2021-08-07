@@ -1,7 +1,8 @@
-import React from 'react'
-import { useState } from 'react';
+import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import { FiAlignRight } from "react-icons/fi";
 import './styles/Navbar.css'
+
 
 export default function Navbar() {
 const [openNavbar, setopenNavbar] = useState(false);
@@ -18,10 +19,10 @@ const handleOpenNavbar = () => {
       <div className= "Navbar__Content">
         <nav className= {openNavbar ? "Navbar__Links Navbar__Active" : "Navbar__Links"}>
           <ul>
-            <li key="1">Home</li>
-            <li key="2">About</li>
-            <li key="3">Projects</li>
-            <li key="4">Contact</li>
+            <li><Link to="/#about" key="2">About</Link></li>
+            <li><Link to="/#projects" key="3">Projects</Link></li>
+            <li><Link to="/#contact" key="4">Contact</Link></li>
+            <Link className="resume-button" to='./../resume.pdf' target="_blank">Resume</Link>
           </ul>
         </nav>
         <div className= {openNavbar ? "Wrapper__Active" : "Navbar__Wrapper"}

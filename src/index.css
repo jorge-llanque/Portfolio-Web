@@ -19,6 +19,9 @@ body {
   background-color: var(--color-background);
   padding: 10px;
 }
+a {
+  text-decoration: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

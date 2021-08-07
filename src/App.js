@@ -1,4 +1,5 @@
-
+import React from 'react'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -10,13 +11,15 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <BrowserRouter>
+        <Header />
+        <Hero />
+        <About/>
+        <Skills/>
+        <Experience/>
+        <Projects/>
+        <Contact/>
+      </BrowserRouter>
     </div>
   );
 }

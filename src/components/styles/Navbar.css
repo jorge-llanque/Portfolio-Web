@@ -15,6 +15,14 @@
   z-index: 10;
   transition: .5s;
 }
+.Navbar__Links ul {
+  font-size: 1.6rem;
+  list-style: none;
+  text-decoration: none;
+  display: grid;
+  row-gap: 50px;
+  grid-auto-flow: row;
+}
 .Navbar__Active {
   right: 0;
 }
