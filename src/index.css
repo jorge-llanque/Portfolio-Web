@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 :root {
   --color-text-dark: #FEFEFE;
-  --color-text-light: #646464;
+  --color-text-light: #b1afaf;
   --color-background: #2A2A2A;
   --color-background-second: #111111;
   --color-green-dark: #2FB87C;
@@ -11,9 +13,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poiret One', cursive, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-background);
@@ -26,6 +26,10 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2 {
+  font-size: 22px;
 }
 
 .scroll-down .Header {

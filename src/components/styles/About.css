@@ -1,7 +1,7 @@
-.about {
-  margin: 200px 0 0 50px;
+.About {
+  display: flex;
+  flex-direction: column;
 }
-.about h2{
-  font-size: 22px;
+.About h2{
   height: 80px;
 }

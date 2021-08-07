@@ -3,8 +3,8 @@ import React from 'react'
 export default function Skills() {
   return (
     <div>
-      <section class="skills">
-            <h1>My Skills</h1>
+      <section class="Skills">
+            <h2>My Skills</h2>
             <p>Here are a few technologies I've been working with recently:</p>
             <ul>
                 <li>React</li>

@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <div>
       <section class="experience">
-            <h1>My experience</h1>
+            <h2>My experience</h2>
             <details>
                 <summary >Cadena Logistica SRL</summary>
                 <p >I worked a few years in this Company</p>
