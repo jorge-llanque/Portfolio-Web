@@ -19,7 +19,8 @@ export default function Navbar () {
           <ul>
             <li><Link to="/#about" key="2">About</Link></li>
             <li><Link to="/#projects" key="3">Projects</Link></li>
-            <li><Link to="/#contact" key="4">Contact</Link></li>
+            <li><Link to="/#experience" key="4">Experience</Link></li>
+            <li><Link to="/#contact" key="5">Contact</Link></li>
             <Link className="resume-button" to='./../resume.pdf' target="_blank">Resume</Link>
           </ul>
         </nav>
