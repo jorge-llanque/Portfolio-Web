@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --color-text-dark: #FEFEFE;
   --color-text-light: #b1afaf;
@@ -7,17 +11,16 @@
   --color-background-second: #111111;
   --color-green-dark: #2FB87C;
   --color-green-light: #42d193;
+  --color-logo: rgb(192, 189, 189);
 }
 html {
   font-size: 62.5%;
 }
 body {
-  margin: 0;
   font-family: 'Poiret One', cursive, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-background);
-  padding: 10px;
 }
 a {
   text-decoration: none;

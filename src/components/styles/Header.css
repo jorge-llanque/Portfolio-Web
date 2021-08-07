@@ -3,12 +3,13 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  top: 0;
+  top: -5rem;
   left: 0;
   right: 0;
   transition: transform 0.4s;
   padding: 10px;
   height: 5rem;
+  overflow: hidden;
 }
 .Logo__Header {
   height: auto;
