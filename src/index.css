@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.scroll-down .Header {
+  transform: translate3d(0, -100%, 0);
+}
+.scroll-up {
+  transform: none;
+}
