@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Contact () {
   return (
     <div id="contact">
-              <section class="contact">
-            <button class="First__Button" >Get In Touch</button>
+              <section className="contact">
+            <button className="First__Button" >Get In Touch</button>
         </section>
     </div>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Projects() {
+export default function Projects () {
   return (
     <div>
-      <section class="projects">
+      <section className="projects">
             <h2>My projects</h2>
             <p>I like to build pages, get up project, imagine squares and life cycles...</p>
             <ol>

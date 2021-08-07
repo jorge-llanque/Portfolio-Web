@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Skills() {
+export default function Skills () {
   return (
     <div>
-      <section class="Skills">
+      <section className="Skills">
             <h2>My Skills</h2>
             <p>Here are a few technologies I've been working with recently:</p>
             <ul>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Experience() {
+export default function Experience () {
   return (
     <div>
-      <section class="experience">
+      <section className="experience">
             <h2>My experience</h2>
             <details>
                 <summary >Cadena Logistica SRL</summary>
