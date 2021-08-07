@@ -1,0 +1,8 @@
+.Header {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+.Logo__Header {
+  width: 50px;
+}

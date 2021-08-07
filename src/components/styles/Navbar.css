@@ -1,0 +1,45 @@
+.Navbar__Logo {
+  font-size: 30px;
+}
+.Navbar__Wrapper {
+  display: none;
+}
+.Navbar__Links {
+  position: fixed;
+  top: 0;
+  right: -220px;
+  bottom: 0;
+  width: 220px;
+  background-color: aquamarine;
+  z-index: 10;
+  transition: .5s;
+}
+.Navbar__Active {
+  right: 0;
+}
+.Wrapper__Active {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(5px);
+  transition: .5s;
+}
+@media screen and (min-width: 1024px) {
+  .Navbar__Logo {
+    display: none;
+  }
+  .Navbar__Links {
+    position: relative;
+    right: 0;
+    background-color: tomato;
+    width: 500px;
+  }
+  .Navbar__Links ul {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+  }
+}
