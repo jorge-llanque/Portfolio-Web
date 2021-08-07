@@ -16,12 +16,10 @@
   transition: .5s;
 }
 .Navbar__Links ul {
-  font-size: 1.6rem;
-  list-style: none;
-  text-decoration: none;
   display: grid;
   row-gap: 50px;
   grid-auto-flow: row;
+  margin: 50px 10px;
 }
 .Navbar__Active {
   right: 0;
@@ -47,7 +45,6 @@
     width: 500px;
   }
   .Navbar__Links ul {
-    list-style: none;
     display: grid;
     grid-auto-flow: column;
   }
