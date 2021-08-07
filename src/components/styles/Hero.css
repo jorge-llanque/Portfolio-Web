@@ -4,4 +4,8 @@
   justify-content: center;
   min-height: 100vh;
   padding: 0;
+  color: var(--color-text-dark);
+}
+p {
+  color: var(--color-text-light);
 }

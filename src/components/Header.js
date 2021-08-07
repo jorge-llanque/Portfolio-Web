@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import logo from './../logo.png'
+import logo from './../logo-portfolio.svg'
 import './styles/Header.css'
 
 export default function Header() {
