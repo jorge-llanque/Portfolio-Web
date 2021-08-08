@@ -16,6 +16,19 @@
 }
 html {
   font-size: 62.5%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-green-light);
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-green-light);
+  border: 3px solid var( --color-background);
+  border-radius: 10px;
 }
 body {
   font-family: 'Roboto', sans-serif;

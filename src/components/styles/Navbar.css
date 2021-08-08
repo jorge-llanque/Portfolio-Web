@@ -47,5 +47,6 @@
   .Navbar__Links ul {
     display: grid;
     grid-auto-flow: column;
+    margin: 0;
   }
 }

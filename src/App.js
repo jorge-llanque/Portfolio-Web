@@ -57,15 +57,17 @@ function App () {
   return (
     <div>
       <BrowserRouter>
-        <div className="Overlay" ref={(el) => { overlay = el }}/>
-        <div className="prueba" ref={(el) => { hola = el }}>Hola</div>
-        <Header />
-        <Hero />
-        <About/>
-        <Skills/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
+        <div className="Overlay" ref={(el) => { overlay = el }}>
+          <div className="prueba" ref={(el) => { hola = el }}>Hola
+          </div>
+        </div>
+            <Header />
+            <Hero />
+            <About/>
+            <Skills/>
+            <Experience/>
+            <Projects/>
+            <Contact/>
       </BrowserRouter>
     </div>
   )
