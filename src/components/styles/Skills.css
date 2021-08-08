@@ -1,0 +1,18 @@
+.Skills__Section{
+  height: 300px;
+  padding: 0 10px;
+}
+.Skills__Section p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: var(--color-text-light);
+}
+.Skills__Section-List {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.Skills__Section-List li{
+  color: var(--color-text-dark);
+  font-size: 1rem;
+}

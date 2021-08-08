@@ -1,12 +1,12 @@
 import React from 'react'
+import './styles/Projects.css'
 
 export default function Projects () {
   return (
-    <div>
-      <section className="projects">
+      <section className="Projects__Section">
             <h2>My projects</h2>
             <p>I like to build pages, get up project, imagine squares and life cycles...</p>
-            <ol>
+            <ol className="Projects__Section-List">
                 <li>Badge Creator</li>
                 <li>Hospital System Administration</li>
                 <li>E-commerce System</li>
@@ -17,6 +17,5 @@ export default function Projects () {
                 <li>Landing Page - Artists</li>
             </ol>
       </section>
-    </div>
   )
 }

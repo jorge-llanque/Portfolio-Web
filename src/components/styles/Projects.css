@@ -1,0 +1,14 @@
+.Projects__Section{
+  height: auto;
+  padding: 0 10px;
+}
+.Projects__Section p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: var(--color-text-light);
+}
+.Projects__Section-List {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}

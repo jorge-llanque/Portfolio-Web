@@ -1,12 +1,12 @@
 import React from 'react'
+import './styles/Skills.css'
 
 export default function Skills () {
   return (
-    <div>
-      <section className="Skills">
+      <section className="Skills__Section">
             <h2>My Skills</h2>
-            <p>Here are a few technologies I've been working with recently:</p>
-            <ul>
+            <p>Here are a few technologies Ive been working with recently:</p>
+            <ul className="Skills__Section-List">
                 <li>React</li>
                 <li>Redux</li>
                 <li>JavaScript</li>
@@ -24,6 +24,5 @@ export default function Skills () {
                 <li>Git</li>
             </ul>
         </section>
-    </div>
   )
 }

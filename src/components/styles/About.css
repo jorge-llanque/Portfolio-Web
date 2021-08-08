@@ -1,7 +1,12 @@
-.About {
+.About__Section{
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
+  height: 300px;
+  justify-content: center;
 }
-.About h2{
-  height: 80px;
+.Description p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: var(--color-text-light);
 }
