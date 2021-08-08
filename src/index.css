@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --color-text-dark: #FEFEFE;
+  --color-text-dark: #fefefe;
   --color-text-light: #b1afaf;
-  --color-background: #2A2A2A;
-  --color-background-second: #111111;
-  --color-green-dark: #2FB87C;
+  --color-background: #2a2a2a;
+  --color-background-second: #272626;
+  --color-green-dark: #2fb87c;
   --color-green-light: #42d193;
   --color-logo: rgb(192, 189, 189);
 }
@@ -27,18 +27,19 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--color-green-light);
-  border: 3px solid var( --color-background);
+  border: 3px solid var(--color-background);
   border-radius: 10px;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-background);
+  padding: 0 25px;
 }
 a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: var(--color-background-second);
 }
 ul {
@@ -46,14 +47,14 @@ ul {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 h2 {
   font-size: 2.5rem;
   color: var(--color-green-light);
-  font-family: 'Poiret One', cursive, sans-serif;
+  font-family: "Poiret One", cursive, sans-serif;
   letter-spacing: 2px;
 }
 
@@ -62,4 +63,18 @@ h2 {
 }
 .scroll-up {
   transform: none;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  body {
+    padding: 0 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0 100px;
+  }
 }

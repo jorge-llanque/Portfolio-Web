@@ -1,6 +1,5 @@
-.Skills__Section{
+.Skills__Section {
   height: 300px;
-  padding: 0 10px;
 }
 .Skills__Section p {
   margin: 20px 0;
@@ -12,7 +11,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
-.Skills__Section-List li{
+.Skills__Section-List li {
   color: var(--color-text-dark);
   font-size: 1rem;
 }

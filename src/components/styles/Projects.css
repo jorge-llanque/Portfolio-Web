@@ -1,6 +1,5 @@
-.Projects__Section{
-  height: auto;
-  padding: 0 10px;
+.Projects__Section {
+  height: 600px;
 }
 .Projects__Section p {
   margin: 20px 0;

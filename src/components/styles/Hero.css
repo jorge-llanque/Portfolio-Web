@@ -2,40 +2,57 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 10px;
+  justify-content: center;
   color: var(--color-text-dark);
 }
 .Hero__Section {
   display: grid;
-  grid-template-rows: 50px 50px 20px 100px 50px;
+  grid-template-rows: 5rem 3rem 5rem 10rem 5rem;
+  justify-content: center;
   align-items: center;
+  width: auto;
 }
 .Hero__Section h1 {
   opacity: 0;
-  font-size: 3.5rem;
+  font-size: 1.8rem;
   font-family: "Poiret One", cursive, sans-serif;
 }
 .Hero__Section h2 {
   opacity: 0;
+  font-size: 4rem;
 }
 .Hero__Section h3 {
   opacity: 0;
   font-size: 1.4rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15rem;
   font-family: "Poiret One", cursive, sans-serif;
 }
 .Hero__Section p {
   opacity: 0;
   font-size: 1.2rem;
   color: var(--color-text-light);
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
 }
 .First__Button {
   opacity: 0;
   background-color: transparent;
-  width: 100px;
-  height: 30px;
+  width: 12rem;
+  height: 3.5rem;
   border-radius: 5px;
   color: var(--color-text-dark);
   border: 1px solid var(--color-green-dark);
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+  .Hero {
+    min-height: 100vh;
+    width: 50%;
+  }
+  .Hero__Section p {
+    width: 50rem;
+  }
 }

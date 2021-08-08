@@ -2,17 +2,18 @@
   background-color: var(--color-background-second);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: -5rem;
   left: 0;
   right: 0;
   transition: transform 0.4s;
-  padding: 10px;
+  padding: 0 50px;
   height: 7rem;
   overflow: hidden;
 }
 .Logo__Header {
-  height: auto;
+  height: 100%;
   transform: rotate(90deg);
 }
 

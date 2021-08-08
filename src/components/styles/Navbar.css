@@ -41,8 +41,14 @@
   .Navbar__Links {
     position: relative;
     right: 0;
-    background-color: tomato;
+    background-color: transparent;
     width: 500px;
+  }
+  a {
+    color: rgb(137, 177, 143);
+  }
+  a:hover {
+    color: rgb(24, 155, 44);
   }
   .Navbar__Links ul {
     display: grid;

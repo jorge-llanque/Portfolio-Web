@@ -47,8 +47,8 @@ export default function Hero () {
           <h1 ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
           <h3 ref={headerSub}>I build things for the web.</h3>
-          <p ref={headerParg}>Iapos;m a Boston-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences. Currently, Iapos;m an engineer at Upstatement focused on building accessible, human-centered products.</p>
-          <button ref={headerButton} className="First__Button" >Get In Touch</button>
+          <p ref={headerParg}>Iapos;m a Boston-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences. Cs.</p>
+          <button ref={headerButton} className="First__Button" >Download CV</button>
       </section>
     </div>
   )
