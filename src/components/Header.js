@@ -9,7 +9,7 @@ export default function Header () {
 
   useEffect(() => {
     gsap.to(header, {
-      duration: 2,
+      duration: 1.5,
       delay: 0,
       top: 0,
       ease: Expo.easeInOut

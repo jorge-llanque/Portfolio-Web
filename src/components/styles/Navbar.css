@@ -13,7 +13,7 @@
   width: 220px;
   background-color: var(--color-green-light);
   z-index: 10;
-  transition: .5s;
+  transition: 0.5s;
 }
 .Navbar__Links ul {
   display: grid;
@@ -32,7 +32,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(5px);
-  transition: .5s;
+  transition: 0.5s;
 }
 @media screen and (min-width: 1024px) {
   .Navbar__Logo {

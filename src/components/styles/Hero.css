@@ -11,20 +11,27 @@
   align-items: center;
 }
 .Hero__Section h1 {
+  opacity: 0;
   font-size: 3.5rem;
-  font-family: 'Poiret One', cursive, sans-serif;
+  font-family: "Poiret One", cursive, sans-serif;
+}
+.Hero__Section h2 {
+  opacity: 0;
 }
 .Hero__Section h3 {
+  opacity: 0;
   font-size: 1.4rem;
   letter-spacing: 1.5px;
-  font-family: 'Poiret One', cursive, sans-serif;
+  font-family: "Poiret One", cursive, sans-serif;
 }
 .Hero__Section p {
+  opacity: 0;
   font-size: 1.2rem;
   color: var(--color-text-light);
   letter-spacing: 1px;
 }
 .First__Button {
+  opacity: 0;
   background-color: transparent;
   width: 100px;
   height: 30px;
