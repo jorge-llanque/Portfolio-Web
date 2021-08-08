@@ -1,5 +1,5 @@
 .Skills__Section {
-  height: 300px;
+  height: auto;
 }
 .Skills__Section p {
   margin: 20px 0;
@@ -14,4 +14,12 @@
 .Skills__Section-List li {
   color: var(--color-text-dark);
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.Skills__Section-List li i {
+  font-size: 50px;
+}
+.Skills__Section-List li:nth-child(1) {
+  color: rgb(31, 158, 197);
 }

@@ -10,21 +10,45 @@ export default function Skills () {
             <h2>My Skills</h2>
             <p>Here are a few technologies Ive been working with recently:</p>
             <ul className="Skills__Section-List">
-                <li><FaReact />React</li>
-                <li><SiRedux />Redux</li>
-                <li><SiJavascript/>JavaScript</li>
-                <li><SiTypescript/>TypeScript</li>
-                <li><SiHtml5/>HTML5</li>
-                <li><SiCss3/>CSS3</li>
-                <li><SiSass/>SASS</li>
-                <li><SiMaterialUi/>Material UI</li>
-                <li><FaNodeJs/>NodeJs</li>
-                <li>Express</li>
-                <li>Sequelize</li>
-                <li><DiPostgresql/>PostgreSQL</li>
-                <li><SiJest/>Jest</li>
-                <li><SiGithub/>GitHub</li>
-                <li><FaGitAlt/>Git</li>
+                <li>
+                  <i><FaReact /></i>
+                  <span>React</span></li>
+                <li>
+                <i><SiRedux /></i>
+                <span>Redux</span></li>
+                <li>
+                  <i><SiJavascript/></i>
+                  <span>JavaScript</span></li>
+                <li>
+                  <i><SiTypescript/></i>
+                  <span>TypeScript</span></li>
+                <li>
+                  <i><SiHtml5/></i>
+                  <span>HTML5</span></li>
+                <li>
+                  <i><SiCss3/></i>
+                  <span>CSS3</span></li>
+                <li>
+                  <i><SiSass/></i>
+                  <span>SASS</span></li>
+                <li>
+                  <i><SiMaterialUi/></i>
+                  <span>Material UI</span></li>
+                <li>
+                  <i><FaNodeJs/></i>
+                  <span>NodeJs</span></li>
+                <li>
+                  <i><DiPostgresql/></i>
+                  <span>PostgreSQL</span></li>
+                <li>
+                  <i><SiJest/></i>
+                  <span>Jest</span></li>
+                <li>
+                  <i><SiGithub/></i>
+                  <span>GitHub</span></li>
+                <li>
+                  <i><FaGitAlt/></i>
+                  <span>Git</span></li>
             </ul>
         </section>
   )
