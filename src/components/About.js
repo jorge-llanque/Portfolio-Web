@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import './styles/About.css'
 import { gsap, Expo } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import profile from './../profile.jpg'
+
 gsap.registerPlugin(ScrollTrigger)
 
 export default function About () {
@@ -46,11 +48,11 @@ export default function About () {
         <h2 ref={aboutTitle}>About Me</h2>
         <div className="About__Resume" >
             <div className="Description">
-                <p ref={firstPagh}>Hello! My name is Jorge and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-                <p ref={secondPagh}>Fast-forward to today, and Iapos;ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
+                <p ref={firstPagh}>In 2017 I started studying Systems Engineering at university motivated by curiosity in digitization. With the passage of time I discovered that my passion was web development, since then I have not stopped working on improving my skills.</p>
+                <p ref={secondPagh}>In my last face-to-face job I had the opportunity to collaborate as a logistics systems developer and I was able to improve my team collaboration. Every day I have new challenges and I strive to be prepared to overcome them.</p>
             </div>
             <div className="Photo">
-                <img src="#" alt="photo"/>
+                <img src={profile} alt="photo"/>
             </div>
         </div>
     </section>

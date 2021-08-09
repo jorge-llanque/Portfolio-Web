@@ -1,8 +1,9 @@
 .About__Section {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: auto;
   justify-content: center;
+  margin: 3rem 0;
 }
 .About__Section h2 {
   opacity: 0;
@@ -13,7 +14,17 @@
   opacity: 0;
 }
 .Description p {
+  text-align: justify;
   margin: 20px 0;
   font-size: 1.2rem;
+  line-height: 1.5;
   color: var(--color-text-light);
+}
+.Photo {
+  text-align: center;
+  margin: 20px 0;
+}
+.Photo img{
+  width: 100px;
+  height: 120px;
 }

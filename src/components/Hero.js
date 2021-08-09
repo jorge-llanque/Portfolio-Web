@@ -46,8 +46,8 @@ export default function Hero () {
       <section className="Hero__Section">
           <h1 ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
-          <h3 ref={headerSub}>I build things for the web.</h3>
-          <p ref={headerParg}>Iapos;m a Boston-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences. Cs.</p>
+          <h3 ref={headerSub}>A web solutions architect.</h3>
+          <p ref={headerParg}>Iam Frontend Developer, I love to code in Javascript. I agree to participe in teams where I can to add things for the web</p>
           <button ref={headerButton} className="First__Button" >Download CV</button>
       </section>
     </div>
