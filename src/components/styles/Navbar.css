@@ -44,11 +44,24 @@
     background-color: transparent;
     width: 500px;
   }
-  a {
-    color: rgb(137, 177, 143);
+  .Navbar__Links a {
+    color: var(--color-green-dark);
+    position: relative;
   }
-  a:hover {
-    color: rgb(24, 155, 44);
+  .Navbar__Links a:after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    background-color: var(--color-green-dark);
+    height: 7%;
+    width: 0%;
+    transition-property: width;
+    transition-duration: 1s;
+    
+  }
+  .Navbar__Links a:hover::after {
+    width: 100%;
   }
   .Navbar__Links ul {
     display: grid;

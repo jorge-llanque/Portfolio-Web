@@ -4,11 +4,11 @@
   height: auto;
   justify-content: center;
   margin: 3rem 0;
+  max-width: 60rem;
 }
 .About__Section h2 {
   opacity: 0;
 }
-
 .Description p {
   transform: translate(0, 80px);
   opacity: 0;
@@ -19,6 +19,7 @@
   font-size: 1.2rem;
   line-height: 1.5;
   color: var(--color-text-light);
+  max-width: 35rem;
 }
 .Photo {
   text-align: center;
@@ -27,4 +28,11 @@
 .Photo img{
   width: 100px;
   height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .About__Resume {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+  }
 }

@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import './App.css'
 import Layout from './components/Layout'
+import Footer from './components/Footer'
 
 function App () {
   return (
@@ -22,6 +23,7 @@ function App () {
             <Experience/>
             <Projects/>
             <Contact/>
+            <Footer />
         </Layout>
       </BrowserRouter>
     </div>

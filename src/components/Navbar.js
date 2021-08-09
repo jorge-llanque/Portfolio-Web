@@ -21,7 +21,7 @@ export default function Navbar () {
             <li><Link to="/#projects" key="3">Projects</Link></li>
             <li><Link to="/#experience" key="4">Experience</Link></li>
             <li><Link to="/#contact" key="5">Contact</Link></li>
-            <Link className="resume-button" to='./../resume.pdf' target="_blank">Resume</Link>
+            <li><Link className="resume-button" to='./../resume.pdf' target="_blank">Resume</Link></li>
           </ul>
         </nav>
         <div className= {openNavbar ? 'Wrapper__Active' : 'Navbar__Wrapper'}

@@ -48,7 +48,7 @@ export default function Hero () {
           <h2 ref={headerName}>Jorge LLanque.</h2>
           <h3 ref={headerSub}>A web solutions architect.</h3>
           <p ref={headerParg}>Iam Frontend Developer, I love to code in Javascript. I agree to participe in teams where I can to add things for the web</p>
-          <button ref={headerButton} className="First__Button" >Download CV</button>
+          <a ref={headerButton} className="First__Button" >Download CV</a>
       </section>
     </div>
   )
