@@ -23,7 +23,6 @@ export default function Header () {
 
   window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset
-
     if (currentScroll <= 0) {
       body.classList.remove(scrollUp)
       return
@@ -45,7 +44,7 @@ export default function Header () {
   })
 
   return (
-    <div className="Header" ref={(el) => { header = el }}>
+    <div className="Header" ref={(el) => { header = el }} >
         <img src={logo} alt="logo" className="Logo__Header"/>
         <Navbar />
     </div>

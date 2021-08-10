@@ -6,7 +6,7 @@ import { DiPostgresql } from 'react-icons/di'
 
 export default function Skills () {
   return (
-      <section className="Skills__Section">
+      <section className="Skills__Section" >
             <h2>My Skills</h2>
             <p>Here are a few technologies Ive been working with recently:</p>
             <ul className="Skills__Section-List">
@@ -49,6 +49,9 @@ export default function Skills () {
                 <li>
                   <i><FaGitAlt/></i>
                   <span>Git</span></li>
+                <li>
+                  <i><FaGitAlt/></i>
+                  <span>Webpack</span></li>
             </ul>
         </section>
   )

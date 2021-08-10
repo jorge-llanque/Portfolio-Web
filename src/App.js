@@ -18,11 +18,11 @@ function App () {
         <Layout>
             <Header />
             <Hero />
-            <About/>
-            <Skills/>
-            <Experience/>
-            <Projects/>
-            <Contact/>
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
             <Footer />
         </Layout>
       </BrowserRouter>

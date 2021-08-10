@@ -33,8 +33,8 @@
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  color: rgb(180, 51, 169);
-  background-color: var(--color-green-dark);
+  color: var(--color-green-dark-strong);
+  background-color: var(--color-background);
 }
 .Title-Techs{
   margin-left: 5px;
@@ -44,7 +44,7 @@
 }
 .Title-Techs h2 a{
   font-size: 1.2rem;
-  color: var(--color-green-dark);
+  color: var(--color-green-light);
 }
 .Title-Techs span{
   color: var(--color-text-light);

@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--color-green-dark);
   font-size: 1.2rem;
+}
+.Footer span:nth-child(1) {
+  color: var(--color-text-light);
+}
+.Footer span:nth-child(2){
+  color: var(--color-text-light);
+}
+.Footer span b{
+  color: var(--color-green-light);
 }

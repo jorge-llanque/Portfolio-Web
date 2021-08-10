@@ -5,7 +5,7 @@ import { IoCheckmarkCircleSharp } from 'react-icons/io5'
 
 export default function Projects () {
   return (
-      <section className="Projects__Section">
+      <section id="projects" className="Projects__Section" >
             <h2>My Projects</h2>
             <p>I like to build pages, get up project, imagine squares and life cycles...</p>
             <div className="Projects__List">

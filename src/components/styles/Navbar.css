@@ -15,15 +15,16 @@
   z-index: 10;
   transition: 0.5s;
 }
+.Navbar__Active {
+  right: 0;
+}
 .Navbar__Links ul {
   display: grid;
   row-gap: 50px;
   grid-auto-flow: row;
   margin: 50px 10px;
 }
-.Navbar__Active {
-  right: 0;
-}
+
 .Wrapper__Active {
   position: fixed;
   top: 0;
@@ -34,9 +35,14 @@
   backdrop-filter: blur(5px);
   transition: 0.5s;
 }
+
+
 @media screen and (min-width: 1024px) {
   .Navbar__Logo {
     display: none;
+  }
+  .Navbar__Content{
+    visibility: visible;
   }
   .Navbar__Links {
     position: relative;
@@ -58,7 +64,6 @@
     width: 0%;
     transition-property: width;
     transition-duration: 1s;
-    
   }
   .Navbar__Links a:hover::after {
     width: 100%;

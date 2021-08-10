@@ -4,6 +4,8 @@ import { CustomEase } from 'gsap/CustomEase'
 import logo from './../logo-portfolio.svg'
 import './styles/Layout.css'
 
+gsap.registerPlugin(CustomEase)
+
 // eslint-disable-next-line react/prop-types
 export default function Layout ({ children }) {
   const [isLoading, setIsLoading] = useState(true)
@@ -39,17 +41,30 @@ export default function Layout ({ children }) {
 
   const isLoadingFalse = () => {
     setIsLoading(false)
+    // const scrollEl = document.querySelector('#main-container')
+    // console.log(scrollEl)
+    // // eslint-disable-next-line no-unused-vars
+    // const locoScroll = new LocomotiveScroll({
+    //   el: scrollEl,
+    //   smooth: true,
+    //   multiplier: 1,
+    //   class: 'is-reveal'
+    // })
+    // console.log(locoScroll)
   }
+
   return (
-    <>
+    <div>
       {
         isLoading
           // eslint-disable-next-line no-const-assign
           ? <div className="Overlay" ref={overlay}>
         <img src={logo} className="prueba" ref={logoAnimate}/>
       </div>
-          : (children)
+          : <div>
+             {children}
+            </div>
       }
-    </>
+    </div>
   )
 }

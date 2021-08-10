@@ -42,7 +42,7 @@ export default function Hero () {
   }, [])
 
   return (
-    <div className="Hero">
+    <div className="Hero" >
       <section className="Hero__Section">
           <h1 ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
