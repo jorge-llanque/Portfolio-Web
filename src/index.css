@@ -10,14 +10,21 @@
   --color-text-light: #b1afaf;
   --color-background: #2a2a2a;
   --color-background-second: #272626;
-  --color-green-dark: #2fb87c;
-  --color-green-light: #42d193;
   --color-logo: rgb(192, 189, 189);
+  
+  
+  --color-green-light-thin: #71DAAC;
+  --color-green-light: #46C990;
+  --color-green: #2FB87C;
+  --color-green-dark: #1AA96A;
+  --color-green-dark-strong: #109259;
+
 }
 html {
   font-size: 62.5%;
   scrollbar-width: thin;
   scrollbar-color: var(--color-green-light);
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   width: 12px;

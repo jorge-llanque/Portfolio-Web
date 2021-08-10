@@ -26,7 +26,7 @@ export default function About () {
         trigger: firstPagh.current,
         start: 'top 100%'
       },
-      duration: 2.5,
+      duration: 2,
       transform: 'translate(0, 0)',
       opacity: 1,
       ease: Expo.easeInOut
@@ -36,7 +36,7 @@ export default function About () {
         trigger: secondPagh.current,
         start: 'top 100%'
       },
-      duration: 2.5,
+      duration: 2,
       transform: 'translate(0, 0)',
       opacity: 1,
       ease: Expo.easeInOut

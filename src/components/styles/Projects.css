@@ -73,4 +73,10 @@
   left: 1rem;
   border-radius: 10px;
   z-index: -1;
+  transition-property: top left;
+  transition-duration: .5s;
+}
+.Projects__Item:hover::after{
+  top: -1rem;
+  left: -1rem;
 }

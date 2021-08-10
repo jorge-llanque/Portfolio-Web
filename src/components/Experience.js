@@ -4,7 +4,7 @@ import './styles/Experience.css'
 export default function Experience () {
   return (
       <section className="Experience__Section">
-            <h2>My experience</h2>
+            <h2>My Experience</h2>
             <ul className="Experience__List">
                 <li className="Experience__List-Item-1">
                     <h4>Developer on Cadena Logistica SRL</h4>
