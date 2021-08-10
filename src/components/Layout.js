@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { gsap, Expo } from 'gsap'
-import { CustomEase } from 'gsap/CustomEase'
+// import { CustomEase } from 'gsap/CustomEase'
 import logo from './../logo-portfolio.svg'
 import './styles/Layout.css'
 
-gsap.registerPlugin(CustomEase)
+// gsap.registerPlugin(CustomEase)
 
 // eslint-disable-next-line react/prop-types
 export default function Layout ({ children }) {
@@ -21,7 +21,8 @@ export default function Layout ({ children }) {
     })
     gsap.to(logoAnimate.current, {
       duration: 0.8,
-      ease: CustomEase.create('custom', 'M0,0 C0.129,0.572 0.259,1.016 0.517,1.09 0.678,1.136 0.836,0 1,0 '),
+      ease: Expo.easeInOut,
+      // ease: CustomEase.create('custom', 'M0,0 C0.129,0.572 0.259,1.016 0.517,1.09 0.678,1.136 0.836,0 1,0 '),
       x: 70,
       delay: 2
     })
