@@ -44,7 +44,7 @@ export default function About () {
   }, [])
 
   return (
-    <section className="About__Section">
+    <section id="about" className="About__Section">
         <h2 ref={aboutTitle}>About Me</h2>
         <div className="About__Resume" >
             <div className="Description" >

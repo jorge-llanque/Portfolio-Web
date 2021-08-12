@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
 import About from './components/About'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -14,7 +13,6 @@ import Footer from './components/Footer'
 function App () {
   return (
     <div>
-      <BrowserRouter>
         <Layout>
             <Header />
             <Hero />
@@ -25,7 +23,6 @@ function App () {
             <Contact />
             <Footer />
         </Layout>
-      </BrowserRouter>
     </div>
   )
 }
