@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/Skills.css'
 import { FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa'
-import { SiRedux, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiSass, SiMaterialUi, SiJest, SiGithub } from 'react-icons/si'
+import { SiNextDotJs, SiRedux, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiSass, SiMaterialUi, SiJest, SiGithub, SiWebpack } from 'react-icons/si'
 import { DiPostgresql } from 'react-icons/di'
 
 export default function Skills () {
@@ -50,8 +50,11 @@ export default function Skills () {
                   <i><FaGitAlt/></i>
                   <span>Git</span></li>
                 <li>
-                  <i><FaGitAlt/></i>
+                  <i><SiWebpack/></i>
                   <span>Webpack</span></li>
+                <li>
+                  <i><SiNextDotJs/></i>
+                  <span>NextJs</span></li>
             </ul>
         </section>
   )
