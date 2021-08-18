@@ -2,6 +2,9 @@
   height: 40rem;
   margin: 3rem 0 5rem 0;
 }
+.Contact__Section h2 {
+  opacity: 0;
+}
 .Contact__Section button {
   background-color: var(--color-green-dark);
 }
@@ -25,6 +28,7 @@
   letter-spacing: 0.8px;
   transition-property: background-color color border-color;
   transition-duration: .5s;
+  opacity: 0;
 }
 .Contact-Email:hover {
   background-color: var(--color-green-dark-strong);
@@ -37,6 +41,7 @@
 .Contact__Links ul {
   justify-self: center;
   display: flex;
+  opacity: 0;
 }
 .Contact__Links li {
   font-size: 3rem;
