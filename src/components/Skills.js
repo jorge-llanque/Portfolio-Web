@@ -46,7 +46,7 @@ export default function Skills () {
   return (
       <section id="skills" className="Skills__Section" >
             <h2 ref={titleSkills}>My Skills</h2>
-            <p ref={paraSkills}>Here are a few technologies Ive been working with recently:</p>
+            <p ref={paraSkills}>Since a couple of years ago I&apos;m learning new tools to enrichment my building. As you can see here there are a few technologies Ive been working with recently.</p>
             <ul className="Skills__Section-List" ref={listSkills} >
                 <li>
                   <i><FaReact /></i>

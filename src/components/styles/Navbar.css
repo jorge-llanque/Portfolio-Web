@@ -57,11 +57,17 @@
     background-color: transparent;
     width: 500px;
   }
-  .Navbar__Links a {
+  .Navbar__Active {
+    position: relative;
+    right: 0;
+    background-color: transparent;
+    width: 500px;
+  }
+  .Navbar__Content a {
     color: var(--color-green-dark);
     position: relative;
   }
-  .Navbar__Links a:after {
+  .Navbar__Content a:after {
     position: absolute;
     content: "";
     bottom: -5px;
@@ -72,12 +78,15 @@
     transition-property: width;
     transition-duration: 1s;
   }
-  .Navbar__Links a:hover::after {
+  .Navbar__Content a:hover::after {
     width: 100%;
   }
-  .Navbar__Links ul {
+  .Navbar__Content ul {
     display: grid;
     grid-auto-flow: column;
     margin: 0;
+  }
+  .Wrapper__Active {
+    display: none;
   }
 }

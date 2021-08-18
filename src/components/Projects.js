@@ -47,7 +47,7 @@ export default function Projects () {
   return (
       <section id="projects" className="Projects__Section" >
             <h2 ref={titleProjects} >My Projects</h2>
-            <p ref={paraProjects}>I like to build pages, get up project, imagine squares and life cycles...</p>
+            <p ref={paraProjects}>I love to code ideas, making layouts, designing prototypes, deploying results, and fulfilling dreams.</p>
             <div ref={listProjects} className="Projects__List">
               <article className="Projects__Item">
                 <header className="Item__Title">
