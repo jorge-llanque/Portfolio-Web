@@ -29,6 +29,7 @@ export default function Navbar () {
             <li><a onClick={handleChangePage} href="/#experience" key="5">Experience</a></li>
             <li><a onClick={handleChangePage} href="/#contact" key="6">Contact</a></li>
             <li><a onClick={handleChangePage} className="resume-button" href='/resume.pdf' target="_blank">Resume</a></li>
+            <li className="Toggle__DarkMode"><input type="checkbox" id="toggle"/><label htmlFor="toggle"></label></li>
           </ul>
         </nav>
         <div className= {openNavbar ? 'Wrapper__Active' : 'Navbar__Wrapper'}

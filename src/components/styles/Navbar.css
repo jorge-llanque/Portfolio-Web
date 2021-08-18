@@ -30,6 +30,7 @@
   row-gap: 50px;
   grid-auto-flow: row;
   margin: 50px 10px;
+  align-items: center;
 }
 
 .Wrapper__Active {
@@ -41,6 +42,61 @@
   background-color: rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(5px);
   transition: 0.5s;
+}
+.Toggle__DarkMode {
+  position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+label {
+	position: relative;
+	display: block;
+	width: 70px;
+	height: 30px;
+	border-radius: 100px;
+	background-color: #3b3c42;
+	overflow: hidden;
+	cursor: pointer;
+}
+label:before{
+  display: block;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+  transition: .5s ease;
+  background-color: #ffa41b;
+}
+label:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 54px;
+  height: 40px;
+  border-radius: 50%;
+  top: -5px;
+  left: -110px;
+  transition: .5s ease;
+  background-color: #3b3c42;
+  transform: scale(0.00001);
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"]:checked + label:before {
+  background-color: #FFF;
+	transform: translateX(50px);
+}
+input[type="checkbox"]:checked + label:after {
+  transform: translateX(120px) scale(1);
 }
 
 
