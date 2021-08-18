@@ -46,7 +46,7 @@ export default function Hero () {
       <section className="Hero__Section">
           <h1 ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
-          <h3 ref={headerSub}>A web solutions architect.</h3>
+          <h3 ref={headerSub}>Passionate about the web.</h3>
           <p ref={headerParg}>I&apos;m Frontend Developer, I love to code Javascript. I would like to collaborate in a team of software development</p>
           <a ref={headerButton} href='/resume.pdf' target="_blank" className="First__Button" >Download CV</a>
       </section>
