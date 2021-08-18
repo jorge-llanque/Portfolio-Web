@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import { gsap, Expo } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa'
+import { DiScrum, DiPostgresql } from 'react-icons/di'
 import { SiNextDotJs, SiRedux, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiSass, SiMaterialUi, SiJest, SiGithub, SiWebpack } from 'react-icons/si'
-import { DiPostgresql } from 'react-icons/di'
+
 import './styles/Skills.css'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -93,6 +94,9 @@ export default function Skills () {
                 <li>
                   <i><SiNextDotJs/></i>
                   <span>NextJs</span></li>
+                <li>
+                  <i><DiScrum/></i>
+                  <span>Scrum</span></li>
             </ul>
         </section>
   )

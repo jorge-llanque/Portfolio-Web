@@ -137,3 +137,9 @@
 .Skills__Section-List li:nth-child(15):hover {
   color: #fff;
 }
+.Skills__Section-List li:nth-child(16) {
+  color: #0267B1;
+}
+.Skills__Section-List li:nth-child(16):hover {
+  color: #328ac9;
+}
