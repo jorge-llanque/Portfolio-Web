@@ -3,17 +3,21 @@
   margin: 10rem 0;
   text-align: end;
 }
+.Projects__Section h2 {
+  opacity: 0;
+}
 .Projects__Section p {
   margin: 20px 0;
   font-size: 1.2rem;
   color: var(--color-text-light);
+  opacity: 0;
 }
 .Projects__List {
   margin: 5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 40rem);
-  
   justify-content: center;
+  opacity: 0;
 }
 .Projects__Item {
   background-color: transparent;
