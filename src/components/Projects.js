@@ -98,6 +98,7 @@ export default function Projects () {
                 </div>
               </article>
             </div>
+            <a>All projects on Github ...</a>
       </section>
   )
 }
