@@ -35,24 +35,26 @@
   border-color: var(--color-green-dark);
   color: var(--color-text-dark);
 }
-.Contact__Links span {
-  font-size: 1.4rem;
-}
+
 .Contact__Links ul {
   justify-self: center;
   display: flex;
   opacity: 0;
 }
 .Contact__Links li {
-  font-size: 3rem;
   margin: 0 2rem;
+  cursor: pointer;
 }
-.Contact__Links li:nth-child(1) {
+.Contact__Links li a:nth-child(1) {
   color: #0E76A8;
+  font-size: 2rem;
 }
-.Contact__Links li:nth-child(2) {
+.Contact__Links li:nth-child(2) > a{
   color: #1C99E6;
+  font-size: 2rem;
+
 }
-.Contact__Links li:nth-child(3) {
+.Contact__Links li:nth-child(3) > a {
   color: #F2F2F2;
+  font-size: 2rem;
 }

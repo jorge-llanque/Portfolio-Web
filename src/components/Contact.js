@@ -46,9 +46,9 @@ export default function Contact () {
         <div className="Contact__Links">
           <a ref={emailContact} className="Contact-Email" href="mailto:georgellanque@gmail.com">Send me an Email</a>
           <ul ref={listContact}>
-            <li><SiLinkedin/></li>
-            <li><SiTwitter/></li>
-            <li><SiGithub/></li>
+            <li><a href="https://www.linkedin.com/in/jorgellanque/" target="_blank" rel="noreferrer"><SiLinkedin /></a></li>
+            <li><a href="https://twitter.com/codeforever" target="_blank" rel="noreferrer" ><SiTwitter/></a></li>
+            <li><a href="https://github.com/jorge-llanque" target="_blank" rel="noreferrer"><SiGithub/></a></li>
           </ul>
         </div>
     </section>
