@@ -8,8 +8,9 @@ gsap.registerPlugin(ScrollTrigger)
 
 export default function About () {
   const aboutTitle = useRef(null)
-  const firstPagh = useRef(null)
-  const secondPagh = useRef(null)
+  const firstPara = useRef(null)
+  const secondPara = useRef(null)
+  const photo = useRef(null)
 
   useEffect(() => {
     gsap.to(aboutTitle.current, {
@@ -21,25 +22,37 @@ export default function About () {
       opacity: 1,
       ease: Expo.easeInOut
     })
-    gsap.to(firstPagh.current, {
+    gsap.to(firstPara.current, {
       scrollTrigger: {
-        trigger: firstPagh.current,
-        start: 'top 100%'
+        markers: true,
+        trigger: firstPara.current,
+        start: 'top bottom'
       },
-      duration: 2,
-      transform: 'translate(0, 0)',
       opacity: 1,
-      ease: Expo.easeInOut
+      ease: Expo.easeInOut,
+      duration: 1.5,
+      delay: 0
+
     })
-    gsap.to(secondPagh.current, {
+    gsap.to(secondPara.current, {
       scrollTrigger: {
-        trigger: secondPagh.current,
-        start: 'top 100%'
+        trigger: secondPara.current,
+        start: 'top bottom'
       },
-      duration: 2,
-      transform: 'translate(0, 0)',
       opacity: 1,
-      ease: Expo.easeInOut
+      ease: Expo.easeInOut,
+      duration: 1.5,
+      delay: 0
+    })
+    gsap.to(photo.current, {
+      scrollTrigger: {
+        trigger: photo.current,
+        start: 'top bottom'
+      },
+      opacity: 1,
+      ease: Expo.easeInOut,
+      duration: 1.5,
+      delay: 0
     })
   }, [])
 
@@ -48,10 +61,10 @@ export default function About () {
         <h2 ref={aboutTitle}>About Me</h2>
         <div className="About__Resume" >
             <div className="Description" >
-                <p ref={firstPagh} >In 2017 I started studying Systems Engineering at university motivated by curiosity in digitization. With the passage of time I discovered that my passion was web development, since then I have not stopped working on improving my skills.</p>
-                <p ref={secondPagh}>In my last face-to-face job I had the opportunity to collaborate as a logistics systems developer and I was able to improve my team collaboration. Every day I have new challenges and I strive to be prepared to overcome them.</p>
+                <p ref={firstPara} >In 2017 I started studying Systems Engineering at university motivated by curiosity in digitization. With the passage of time I discovered that my passion was web development, since then I have not stopped working on improving my skills.</p>
+                <p ref={secondPara}>In my last face-to-face job I had the opportunity to collaborate as a logistics systems developer and I was able to improve my team collaboration. Every day I have new challenges and I strive to be prepared to overcome them.</p>
             </div>
-            <div className="Photo">
+            <div className="Photo" ref={photo}>
                 <img src={profile} alt="photo"/>
             </div>
         </div>
