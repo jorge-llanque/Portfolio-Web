@@ -3,10 +3,13 @@
   height: auto;
   margin: 10rem 0;
 }
+.Experience__Section h2 {
+  opacity: 0;
+}
 .Experience__List {
   margin: 3rem auto;
   max-width: 50rem;
-  
+  opacity: 0;
 }
 .Experience__List-Item-1 {
   text-align: right;

@@ -24,7 +24,6 @@ export default function About () {
     })
     gsap.to(firstPara.current, {
       scrollTrigger: {
-        markers: true,
         trigger: firstPara.current,
         start: 'top bottom'
       },
