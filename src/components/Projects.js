@@ -53,8 +53,8 @@ export default function Projects () {
                 <header className="Item__Title">
                   <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Nutrition Recipes</a></h2>
-                  <span>React | JavaScript | CSS3</span>
+                    <h2><a href="/">Nutrition Recipes</a></h2>
+                    <span>React | JavaScript | CSS3 | API Edamam</span>
                   </div>
                 </header>
                 <div className="Thumbnail__Wrap">
@@ -66,7 +66,7 @@ export default function Projects () {
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
                   <h2><a href="/">Favorite Videos</a></h2>
-                  <span>React | JavaScript | CSS3</span>
+                  <span>SCSS | Redux | React | Jest | Webpack</span>
                   </div>
                 </header>
                 <div className="Thumbnail__Wrap">
@@ -77,8 +77,8 @@ export default function Projects () {
                 <header className="Item__Title">
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Nutrition Recipes</a></h2>
-                  <span>React | JavaScript | CSS3</span>
+                  <h2><a href="/">Your Friendly Store</a></h2>
+                  <span>React | Redux | SCSS | API Paypal | API Asos</span>
                   </div>
                 </header>
                 <div className="Thumbnail__Wrap">
@@ -89,8 +89,8 @@ export default function Projects () {
                 <header className="Item__Title">
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Nutrition Recipes</a></h2>
-                  <span>React | JavaScript | CSS3</span>
+                  <h2><a href="/">Shuriken Gif</a></h2>
+                  <span>React | CSS3 | API Giffy | Jest</span>
                   </div>
                 </header>
                 <div className="Thumbnail__Wrap">

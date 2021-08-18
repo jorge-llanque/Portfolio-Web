@@ -3,7 +3,7 @@
   margin: 10rem 0;
   text-align: end;
 }
-.Projects__Section h2 {
+.Projects__Section>h2 {
   opacity: 0;
 }
 .Projects__Section p {
@@ -45,6 +45,7 @@
 }
 .Title-Techs h2{
   font-size: 0;
+  text-align: left;
 }
 .Title-Techs h2 a{
   font-size: 1.2rem;
@@ -53,6 +54,7 @@
 .Title-Techs span{
   color: var(--color-text-light);
   letter-spacing: 0.5px;
+  text-align: left;
 }
 .Thumbnail__Wrap {
   overflow: hidden;
