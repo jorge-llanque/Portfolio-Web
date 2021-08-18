@@ -1,15 +1,53 @@
-import React from 'react'
-import './styles/Skills.css'
+import React, { useEffect, useRef } from 'react'
+import { gsap, Expo } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa'
 import { SiNextDotJs, SiRedux, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiSass, SiMaterialUi, SiJest, SiGithub, SiWebpack } from 'react-icons/si'
 import { DiPostgresql } from 'react-icons/di'
+import './styles/Skills.css'
+
+gsap.registerPlugin(ScrollTrigger)
 
 export default function Skills () {
+  const titleSkills = useRef(null)
+  const paraSkills = useRef(null)
+  const listSkills = useRef(null)
+
+  useEffect(() => {
+    gsap.to(titleSkills.current, {
+      scrollTrigger: {
+        trigger: titleSkills.current,
+        start: 'top 100%'
+      },
+      duration: 1,
+      opacity: 1,
+      ease: Expo.easeInOut
+    })
+    gsap.to(paraSkills.current, {
+      scrollTrigger: {
+        trigger: paraSkills.current,
+        start: 'top 100%'
+      },
+      duration: 1,
+      opacity: 1,
+      ease: Expo.easeInOut
+    })
+    gsap.to(listSkills.current, {
+      scrollTrigger: {
+        trigger: listSkills.current,
+        start: 'top 100%'
+      },
+      duration: 1,
+      opacity: 1,
+      ease: Expo.easeInOut
+    })
+  }, [])
+
   return (
       <section id="skills" className="Skills__Section" >
-            <h2>My Skills</h2>
-            <p>Here are a few technologies Ive been working with recently:</p>
-            <ul className="Skills__Section-List">
+            <h2 ref={titleSkills}>My Skills</h2>
+            <p ref={paraSkills}>Here are a few technologies Ive been working with recently:</p>
+            <ul className="Skills__Section-List" ref={listSkills} >
                 <li>
                   <i><FaReact /></i>
                   <span>React</span></li>
