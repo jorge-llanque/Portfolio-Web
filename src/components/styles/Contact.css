@@ -16,7 +16,7 @@
   width: 170px;
   height: 50px;
   border-radius: 5px;
-  border: 1px solid var(--color-text-light);
+  border: 1px solid #31483a;
   color: var(--color-green-dark);
   text-align: center;
   line-height: 50px;
