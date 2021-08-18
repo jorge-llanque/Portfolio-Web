@@ -52,6 +52,9 @@
   font-size: 1.2rem;
   color: var(--color-green-light);
 }
+.Title-Techs h2 a:hover{
+  color: #0aff94;
+}
 .Title-Techs span{
   color: var(--color-text-light);
   letter-spacing: 0.5px;
@@ -86,4 +89,20 @@
 .Projects__Item:hover::after{
   top: -1rem;
   left: -1rem;
+}
+.Projects_Section-Button {
+  border-radius: 5px;
+  border: 1px solid #31483a;
+  color: var(--color-green-dark);
+  font-size: 1.4rem;
+  letter-spacing: 0.8px;
+  transition-property: background-color color border-color;
+  transition-duration: .5s;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.Projects_Section-Button:hover {
+  background-color: var(--color-green-dark-strong);
+  border-color: var(--color-green-dark);
+  color: var(--color-text-dark);
 }

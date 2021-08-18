@@ -71,15 +71,16 @@
     position: absolute;
     content: "";
     bottom: -5px;
-    left: 0;
-    background-color: var(--color-green-dark);
+    left: -1px;
+    background-color: var(--color-background-second);
     height: 7%;
     width: 0%;
-    transition-property: width;
+    transition-property: width background-color;
     transition-duration: 1s;
   }
   .Navbar__Content a:hover::after {
     width: 100%;
+    background-color: var(--color-green-dark);
   }
   .Navbar__Content ul {
     display: grid;

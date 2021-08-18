@@ -53,7 +53,7 @@ export default function Projects () {
                 <header className="Item__Title">
                   <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                    <h2><a href="/">Nutrition Recipes</a></h2>
+                    <h2><a href="https://nutrition-information-jorge-llanque.vercel.app/" target="_blank" rel="noreferrer">Nutrition Recipes</a></h2>
                     <span>React | JavaScript | CSS3 | API Edamam</span>
                   </div>
                 </header>
@@ -65,7 +65,7 @@ export default function Projects () {
                 <header className="Item__Title">
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Favorite Videos</a></h2>
+                  <h2><a href="https://favoritevideos.netlify.app/" target="_blank" rel="noreferrer">Favorite Videos</a></h2>
                   <span>SCSS | Redux | React | Jest | Webpack</span>
                   </div>
                 </header>
@@ -77,7 +77,7 @@ export default function Projects () {
                 <header className="Item__Title">
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Your Friendly Store</a></h2>
+                  <h2><a href="https://yourfriendlystore.netlify.app/" target="_blank" rel="noreferrer">Your Friendly Store</a></h2>
                   <span>React | Redux | SCSS | API Paypal | API Asos</span>
                   </div>
                 </header>
@@ -89,7 +89,7 @@ export default function Projects () {
                 <header className="Item__Title">
                 <IoCheckmarkCircleSharp className="Item__Tic"/>
                   <div className="Title-Techs">
-                  <h2><a href="/">Shuriken Gif</a></h2>
+                  <h2><a href="https://gifshuriken.netlify.app/" target="_blank" rel="noreferrer">Shuriken Gif</a></h2>
                   <span>React | CSS3 | API Giffy | Jest</span>
                   </div>
                 </header>
@@ -98,7 +98,7 @@ export default function Projects () {
                 </div>
               </article>
             </div>
-            <a>All projects on Github ...</a>
+            <a href="https://github.com/jorge-llanque" target="_blank" className="Projects_Section-Button" rel="noreferrer">... all projects on Github</a>
       </section>
   )
 }
