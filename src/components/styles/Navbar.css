@@ -16,9 +16,16 @@
   transition: 0.5s;
 }
 .Navbar__Active {
+  position: fixed;
+  top: 0;
   right: 0;
+  bottom: 0;
+  width: 220px;
+  background-color: var(--color-green-light);
+  z-index: 10;
+  transition: 0.5s;
 }
-.Navbar__Links ul {
+.Navbar__Content ul {
   display: grid;
   row-gap: 50px;
   grid-auto-flow: row;
