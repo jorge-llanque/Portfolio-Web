@@ -7,6 +7,7 @@ import projectImage2 from './../assets/project-image-2.PNG'
 import projectImage3 from './../assets/project-image-3.PNG'
 import projectImage4 from './../assets/project-image-4.PNG'
 import { IoCheckmarkCircleSharp } from 'react-icons/io5'
+import { ImEmbed2 } from 'react-icons/im'
 import './styles/Projects.css'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -68,6 +69,7 @@ export default function Projects () {
                     <h2><a href="https://nutrition-information-jorge-llanque.vercel.app/" target="_blank" rel="noreferrer">Nutrition Recipes</a></h2>
                     <span>React | JavaScript | CSS3 | API Edamam</span>
                   </div>
+                  <a className="Item__Code-Link" href="https://github.com/jorge-llanque/Recipe-Preparation-React" target="_blank" rel="noreferrer"><ImEmbed2 /></a>
                 </header>
                 <div className="Thumbnail__Wrap">
                     <img loading="lazy" src={projectImage1} alt="img"/>
@@ -80,6 +82,7 @@ export default function Projects () {
                   <h2><a href="https://favoritevideos.netlify.app/" target="_blank" rel="noreferrer">Favorite Videos</a></h2>
                   <span>SCSS | Redux | React | Jest | Webpack</span>
                   </div>
+                  <a className="Item__Code-Link" href="https://github.com/jorge-llanque/favorite_videos" target="_blank" rel="noreferrer"><ImEmbed2 /></a>
                 </header>
                 <div className="Thumbnail__Wrap">
                     <img loading="lazy" src={projectImage2} alt="img"/>
@@ -92,6 +95,7 @@ export default function Projects () {
                   <h2><a href="https://yourfriendlystore.netlify.app/" target="_blank" rel="noreferrer">Your Friendly Store</a></h2>
                   <span>React | Redux | SCSS | API Paypal | API Asos</span>
                   </div>
+                  <a className="Item__Code-Link" href="https://github.com/jorge-llanque/Your-friend-store" target="_blank" rel="noreferrer"><ImEmbed2 /></a>
                 </header>
                 <div className="Thumbnail__Wrap">
                     <img loading="lazy" src={projectImage3} alt="img"/>
@@ -104,6 +108,7 @@ export default function Projects () {
                   <h2><a href="https://gifshuriken.netlify.app/" target="_blank" rel="noreferrer">Shuriken Gif</a></h2>
                   <span>React | CSS3 | API Giffy | Jest</span>
                   </div>
+                  <a className="Item__Code-Link" href="https://github.com/jorge-llanque/Gif-Shuriken" target="_blank" rel="noreferrer"><ImEmbed2 /></a>
                 </header>
                 <div className="Thumbnail__Wrap">
                     <img loading="lazy" src={projectImage4} alt="img"/>

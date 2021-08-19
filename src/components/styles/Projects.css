@@ -37,12 +37,23 @@
   display: flex;
   margin-top: 10px;
 }
+.Item__Code-Link {
+  color: #1c9e66;
+  padding: 5px;
+  margin: 0 5px 0 auto;
+  font-size: 2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.Item__Code-Link:hover{
+  color: #0ee286;
+}
 .Item__Tic {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  color: var(--color-green-dark-strong);
-  background-color: var(--color-background);
+  color: #0da562;
 }
 .Title-Techs{
   margin-left: 5px;
@@ -81,17 +92,21 @@
   content: "";
   background-color: rgb(57, 59, 59);
   top: 1rem;
-  right: -1rem;
+  left: -1rem;
   bottom: -1rem;
-  left: 1rem;
+  right: 1rem;
   border-radius: 10px;
   z-index: -1;
-  transition-property: top left;
+  transition-property: top right;
   transition-duration: .5s;
 }
 .Projects__Item:hover::after{
   top: -1rem;
-  left: -1rem;
+  right: -1rem;
+}
+.Projects__Item:hover .Item__Code-Link{
+  opacity: 1;
+
 }
 .Projects_Section-Button {
   border-radius: 5px;
