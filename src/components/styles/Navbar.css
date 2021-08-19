@@ -79,7 +79,7 @@ label:after {
   display: block;
   position: absolute;
   content: "";
-  width: 54px;
+  width: 53px;
   height: 40px;
   border-radius: 50%;
   top: -5px;
@@ -93,7 +93,7 @@ input[type="checkbox"]{
 }
 input[type="checkbox"]:checked + label:before {
   background-color: #FFF;
-	transform: translateX(50px);
+	transform: translateX(40px);
 }
 input[type="checkbox"]:checked + label:after {
   transform: translateX(120px) scale(1);
