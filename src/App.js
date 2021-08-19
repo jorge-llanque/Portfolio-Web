@@ -6,23 +6,23 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
-import './App.css'
 import Layout from './components/Layout'
 import Footer from './components/Footer'
+import './index.css'
 
 function App () {
   return (
     <div>
-        <Layout>
-            <Header />
-            <Hero />
-            <About />
-            <Skills />
-            <Experience />
-            <Projects />
-            <Contact />
-            <Footer />
-        </Layout>
+      <Layout>
+        <Header />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
+      </Layout>
     </div>
   )
 }

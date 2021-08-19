@@ -18,7 +18,6 @@
   --color-green: #2FB87C;
   --color-green-dark: #1AA96A;
   --color-green-dark-strong: #109259;
-
 }
 html {
   font-size: 62.5%;
@@ -48,7 +47,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-background);
-  padding: 0 25px;
 }
 a {
   text-decoration: none;
@@ -81,18 +79,5 @@ h2 {
 @media screen and (min-width: 768px) {
   html {
     font-size: 70%;
-  }
-  body {
-    padding: 0 50px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  body {
-    padding: 0 130px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  body {
-    padding: 0 350px;
   }
 }

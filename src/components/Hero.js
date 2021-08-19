@@ -1,8 +1,11 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useContext } from 'react'
+import ThemeContext from './../context/ThemeContext'
 import './styles/Hero.css'
 import { gsap, Expo } from 'gsap'
 
 export default function Hero () {
+  const { darkTheme } = useContext(ThemeContext)
+
   const headerTitle = useRef(null)
   const headerName = useRef(null)
   const headerSub = useRef(null)
@@ -41,14 +44,33 @@ export default function Hero () {
     })
   }, [])
 
+  const titleStyle = {
+    color: '#868686',
+    transition: 'all 1s ease'
+  }
+  const subStyle = {
+    color: '#656565',
+    transition: 'all 1s ease'
+  }
+  const butStyle = {
+    backgroundColor: '#109259',
+    color: '#fefefe',
+    border: 'none',
+    transition: 'all 1s ease'
+  }
+
+  const titleCustomStyle = darkTheme ? titleStyle : null
+  const subCustomStyle = darkTheme ? subStyle : null
+  const butCustomStyle = darkTheme ? butStyle : null
+
   return (
-    <div className="Hero" >
+    <div className="Hero">
       <section className="Hero__Section">
-          <h1 ref={headerTitle}>Hi, my name is</h1>
+          <h1 style={titleCustomStyle} ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
-          <h3 ref={headerSub}>Passionate about the web.</h3>
-          <p ref={headerParg}>I&apos;m Frontend Developer, I love to code Javascript. I would like to collaborate in a team of software development</p>
-          <a ref={headerButton} href='/resume.pdf' target="_blank" className="First__Button" >Download CV</a>
+          <h3 style={titleCustomStyle} ref={headerSub}>Passionate about the web.</h3>
+          <p style={subCustomStyle} ref={headerParg}>I&apos;m Frontend Developer, I love to code Javascript. I would like to collaborate in a team of software development</p>
+          <a style={butCustomStyle} ref={headerButton} href='/resume.pdf' target="_blank" className="First__Button" >Download CV</a>
       </section>
     </div>
   )

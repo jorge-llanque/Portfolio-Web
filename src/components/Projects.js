@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useContext } from 'react'
+import ThemeContext from './../context/ThemeContext'
 import { gsap, Expo } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import projectImage1 from './../assets/project-image-1.PNG'
@@ -11,6 +12,7 @@ import './styles/Projects.css'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Projects () {
+  const { darkTheme } = useContext(ThemeContext)
   const titleProjects = useRef(null)
   const paraProjects = useRef(null)
   const listProjects = useRef(null)
@@ -44,6 +46,16 @@ export default function Projects () {
       ease: Expo.easeInOut
     })
   }, [])
+
+  const butStyle = {
+    backgroundColor: '#109259',
+    color: '#fefefe',
+    border: 'none',
+    transition: 'all 1s ease'
+  }
+
+  const butCustomStyle = darkTheme ? butStyle : null
+
   return (
       <section id="projects" className="Projects__Section" >
             <h2 ref={titleProjects} >My Projects</h2>
@@ -98,7 +110,7 @@ export default function Projects () {
                 </div>
               </article>
             </div>
-            <a href="https://github.com/jorge-llanque" target="_blank" className="Projects_Section-Button" rel="noreferrer">... all projects on Github</a>
+            <a style={butCustomStyle} href="https://github.com/jorge-llanque" target="_blank" className="Projects_Section-Button" rel="noreferrer">... all projects on Github</a>
       </section>
   )
 }

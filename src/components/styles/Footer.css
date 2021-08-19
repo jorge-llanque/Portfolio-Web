@@ -1,5 +1,5 @@
 .Footer {
-  margin: 1.5rem auto;
+  padding-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

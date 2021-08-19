@@ -1,10 +1,12 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useContext } from 'react'
+import ThemeContext from './../context/ThemeContext'
 import Navbar from './Navbar'
 import logo from './../logo-portfolio.svg'
 import './styles/Header.css'
 import { gsap, Expo } from 'gsap'
 
 export default function Header () {
+  const { darkTheme } = useContext(ThemeContext)
   let header = useRef(null)
 
   useEffect(() => {
@@ -43,8 +45,15 @@ export default function Header () {
     lastScroll = currentScroll
   })
 
+  const headerStyle = {
+    backgroundColor: 'rgb(243 243 243)',
+    color: 'white',
+    transition: 'all 1s ease'
+  }
+  const themeStyle = darkTheme ? headerStyle : null
+
   return (
-    <div className="Header" ref={(el) => { header = el }} >
+    <div style={themeStyle} className="Header" ref={(el) => { header = el }} >
         <img src={logo} alt="logo" className="Logo__Header"/>
         <Navbar />
     </div>

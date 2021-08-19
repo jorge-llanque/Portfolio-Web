@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { FiAlignRight } from 'react-icons/fi'
-import { useLocation } from 'wouter'
+import ThemeContext from './../context/ThemeContext'
 import './styles/Navbar.css'
 
 export default function Navbar () {
   const [openNavbar, setopenNavbar] = useState(false)
-  // eslint-disable-next-line no-unused-vars
-  const [location, setLocation] = useLocation()
+  const { darkTheme, setDarkTheme } = useContext(ThemeContext)
 
   const handleOpenNavbar = () => {
     setopenNavbar(!openNavbar)
@@ -15,6 +14,10 @@ export default function Navbar () {
 
   const handleChangePage = () => {
     setopenNavbar(!openNavbar)
+  }
+
+  const handleDarkMode = () => {
+    setDarkTheme(!darkTheme)
   }
 
   return (
@@ -29,7 +32,7 @@ export default function Navbar () {
             <li><a onClick={handleChangePage} href="/#experience" key="5">Experience</a></li>
             <li><a onClick={handleChangePage} href="/#contact" key="6">Contact</a></li>
             <li><a onClick={handleChangePage} className="resume-button" href='/resume.pdf' target="_blank">Resume</a></li>
-            <li className="Toggle__DarkMode"><input type="checkbox" id="toggle"/><label htmlFor="toggle"></label></li>
+            <li className="Toggle__DarkMode"><input type="checkbox" defaultChecked={darkTheme} onChange={handleDarkMode} id="toggle"/><label htmlFor="toggle"></label></li>
           </ul>
         </nav>
         <div className= {openNavbar ? 'Wrapper__Active' : 'Navbar__Wrapper'}

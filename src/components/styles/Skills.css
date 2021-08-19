@@ -114,10 +114,10 @@
   color: #ff6333;
 }
 .Skills__Section-List li:nth-child(12) {
-  color: rgb(228, 224, 224);
+  color: rgb(175, 174, 174);
 }
 .Skills__Section-List li:nth-child(12):hover {
-  color: #fff;
+  color: rgb(212, 209, 209);
 }
 .Skills__Section-List li:nth-child(13) {
   color: #b83315;
@@ -132,10 +132,10 @@
   color: #86CBEC;
 }
 .Skills__Section-List li:nth-child(15) {
-  color: rgb(202, 200, 200);
+  color: rgb(141, 138, 138);
 }
 .Skills__Section-List li:nth-child(15):hover {
-  color: #fff;
+  color: rgb(204, 202, 202);
 }
 .Skills__Section-List li:nth-child(16) {
   color: #0267B1;
