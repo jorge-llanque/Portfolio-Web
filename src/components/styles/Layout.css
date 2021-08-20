@@ -48,3 +48,13 @@
     padding: 0 280px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .Layout {
+    padding: 0 350px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .Layout {
+    padding: 0 400px;
+  }
+}
