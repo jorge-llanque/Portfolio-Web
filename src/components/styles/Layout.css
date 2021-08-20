@@ -28,6 +28,23 @@
   transition-property: background-color;
   transition-duration: 1s;
   transition-timing-function: ease;
-  max-width: 920px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .Layout {
+    padding: 0 80px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  
+}
+@media screen and (min-width: 1220px) {
+  .Layout {
+    padding: 0 150px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .Layout {
+    padding: 0 280px;
+  }
 }
