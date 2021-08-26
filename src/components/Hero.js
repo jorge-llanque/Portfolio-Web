@@ -69,7 +69,7 @@ export default function Hero () {
           <h1 style={titleCustomStyle} ref={headerTitle}>Hi, my name is</h1>
           <h2 ref={headerName}>Jorge LLanque.</h2>
           <h3 style={titleCustomStyle} ref={headerSub}>Passionate about the web.</h3>
-          <p style={subCustomStyle} ref={headerParg}>I&apos;m a frontend developer, a fan of green colors, a protector of nature and above all a lover of minimalist designs</p>
+          <p style={subCustomStyle} ref={headerParg}>I&apos;m a frontend developer, a fan of green colors, a protector of nature and above all a lover of minimalist design.</p>
           <a style={butCustomStyle} ref={headerButton} href='/resume.pdf' target="_blank" className="First__Button" >Download CV</a>
       </section>
     </div>

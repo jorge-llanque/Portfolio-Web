@@ -42,7 +42,8 @@
   color: var(--color-text-dark);
   border: 1px solid var(--color-green-dark-strong);
   font-size: 1.2rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 2px;
+  word-spacing: 3px;
   text-align: center;
   line-height: 3.7rem;
   justify-self: center;
