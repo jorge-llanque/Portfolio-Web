@@ -93,7 +93,7 @@ export default function Projects() {
             </a>
           </header>
           <div className='Thumbnail__Wrap'>
-            <img loading='lazy' src={projectImage5} alt='img' />
+            <img src={projectImage5} alt='img' />
           </div>
         </article>
         <article className='Projects__Item'>
