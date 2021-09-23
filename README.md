@@ -7,7 +7,7 @@ This Project is to show you about my professional life . [Look at here](https://
 ## TECHNOLOGIES AND TOOLS
  In general I'm using javascript for the development. But for more specification I'm using:
  * Javascript
- * React
+ * ReactJS
  * CSS3
  * HTML5
  * Gsap
