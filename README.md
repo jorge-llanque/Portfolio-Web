@@ -1,5 +1,5 @@
 # PORTFOLIO V1
-This Project is to show you about my professional life . [Look at here](https://jorgellanque.netlify.app/)
+This project is to show you about my professional life . [Look at here](https://jorgellanque.netlify.app/)
 
 ## Deployment
  The app was upload on netlify, you can visit the app [here](https://jorgellanque.netlify.app/)
