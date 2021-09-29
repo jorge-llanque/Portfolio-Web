@@ -82,7 +82,7 @@ export default function Hero() {
         <a
           style={butCustomStyle}
           ref={headerButton}
-          href='/resume.pdf'
+          href='/Resume-JorgeLLanque.pdf'
           target='_blank'
           className='First__Button'
         >
