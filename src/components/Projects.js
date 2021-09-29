@@ -85,7 +85,7 @@ export default function Projects() {
             </div>
             <a
               className='Item__Code-Link'
-              href='https://github.com/jorge-llanque/Recipe-Preparation-React'
+              href='https://github.com/jorge-llanque/Adopt-me'
               target='_blank'
               rel='noreferrer'
             >
