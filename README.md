@@ -12,5 +12,5 @@ This project is to show you about my professional life . [Look at here](https://
  * HTML5
  * Gsap
 
-## AUTHOR
+## DEVELOPER
 * **Jorge LLanque** - *JS Developer* - [LinkedIn](https://www.linkedin.com/in/jorgellanque)
